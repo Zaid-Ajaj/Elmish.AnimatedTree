@@ -6,6 +6,6 @@ environment:
   nodejs_version: "10.10.0"
 
 build_script:
-- ps: build.ps1 -target Compile
+- ps: ./build.ps1 -target Compile
 
 test: off
