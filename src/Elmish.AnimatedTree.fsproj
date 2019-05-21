@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <PackageTags>fsharp;fable;http</PackageTags>
+    <Authors>Zaid Ajaj</Authors>
+    <Version>1.0.0</Version>
+
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="AnimatedTree.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Fable.React" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="*.fsproj; *.fs; *.js" PackagePath="fable\" />
+  </ItemGroup>
+</Project>
