@@ -1,4 +1,4 @@
-# Elmish.AnimatedTree
+# Elmish.AnimatedTree [![Build status](https://ci.appveyor.com/api/projects/status/7swmi21vs0mxrlfg?svg=true)](https://ci.appveyor.com/project/Zaid-Ajaj/elmish-animatedtree) [![Nuget](https://img.shields.io/nuget/v/Elmish.AnimatedTree.svg?maxAge=0&colorB=brightgreen)](https://www.nuget.org/packages/Elmish.AnimatedTree)
 
 A fork and binding of [react-animated-tree](https://github.com/drcmda/react-animated-tree), adapted to properly work within Elmish applications. It can be used to render recursive tree structure such as a file system tree:
 
